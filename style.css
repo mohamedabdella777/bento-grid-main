@@ -1,13 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Big+Shoulders:opsz,wght@10..72,100..900&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Fascinate+Inline&family=Lexend+Deca:wght@100..900&family=Monoton&family=Noto+Kufi+Arabic&family=Onest:wght@100..900&family=Quicksand:wght@300..700&family=Roboto:ital,wght@0,100..900;1,100..900&family=Rock+Salt&family=Ubuntu&family=Young+Serif&display=swap');
 
-
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 .container{
-    
     height: auto;
     background-color: rgba(245, 240, 255, 0.546);
     font-family: "DM Sans", sans-serif;
@@ -21,6 +19,7 @@
     height: auto;
     background: rgb(245, 245, 245);
     display: grid;
+    font-family: "DM Sans", sans-serif;
 }
 /*box1*/
 .box1{
@@ -33,6 +32,10 @@
    border-radius: 5px;
    padding: 50px 20px 50px 20px;
 }
+.box1 h1{
+    font-size: 40px;
+    font-weight: 500;
+}
 .span1{
     color: hsl(39, 100%, 71%);
 }
@@ -42,6 +45,7 @@
 .box1 p{
     color: #fff; 
     margin-top: 5px;
+    font-weight: 400;
 }
 .box1 img{
     height: 20px;
@@ -61,7 +65,6 @@
     border-radius: 5px;
     padding: 50px 20px 50px 20px;
     position: relative;
-    
  } 
  .box2 .imge2 {
  height: 35px;
@@ -77,10 +80,14 @@
 .box2 p {
     font-size: 12px;
     margin-bottom: 18px;
+    font-weight: 400;
 }
-.box2 h3{
-    margin-bottom: 70px;
+.box2 h2{
+    font-weight: 500;
+    margin-bottom: 40px;
     line-height: 1;
+    margin-left: 50px;
+    width: 120%;
 }
 .box2 .img2{
     height: 45px;
@@ -88,8 +95,8 @@
     top: 0;
 }
 .box2 .imge3{
-    
-    bottom: 10px;
+    position: absolute;
+    bottom: 0;
     height: 45px;
 }
 /*box3*/
@@ -101,16 +108,15 @@
 .box3 h2{
 margin-left: 15px;
 margin-top: 25px;
-    
-    font-size: 18px;
-    line-height: 0.8;
+line-height: 0.8;
+font-weight: 500;
 }
 .box3 img{
     margin-left: 15px;
     height: 70px;
     width: 170px;
-    margin-bottom: -35px;
-    margin-top: 50px;
+    margin-bottom: -50px;
+    margin-top: 15px;
 }
 /*box4*/
 .box4{
@@ -121,20 +127,22 @@ margin-top: 25px;
     margin-top: 30px;
     margin-bottom: 15px;
     margin-left: 33px;
-    font-size: 14px;
+    font-size: 18px;
     line-height: 1;
+    font-weight: 400;
 }
 .box4 img{
     width: 175px;
     height: 200px;
     margin-left: 25px;
 }
-.box4 h2{
+.box4 h1{
    margin-top: 30px;
    margin-left: 30px;
    margin-bottom: 15px;
     word-spacing: -1px;
     line-height: 1.1;
+    font-weight: 500;
 }
 /*box5*/
 .box5{
@@ -147,9 +155,12 @@ margin-top: 25px;
 }
 .box5 img{
     height: 155px;
+    padding: 20px 15px;
 }
 .box5 h1{
-    margin: 0 22px;
+    margin: 22px;
+    line-height: 0.9;
+    font-weight: 500;
 }
 /*box6*/
 .box6{
@@ -166,31 +177,29 @@ margin-top: 25px;
     height: 60px;
   margin-top: 20px;
 }
+
 /*box7*/
 .box7{
     background: hsl(39, 100%, 71%);
     border-radius: 5px;
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+     align-items: center;
+     justify-content: center;
+     flex-direction: column;
+     
 }
 .box7 img{
-   height: 170px;
-}
-.imge7{
-    margin-top: 25px;
-    margin-bottom: -25px;
-}
-.color {
-    color: hsl(256, 67%, 59%);
+     height: 150px;
+     margin-left: 30px;
+     margin-bottom: 40px;
+     
 }
 .box7 h1{
-    line-height: 0.9;
-    margin-bottom: 10px;
-  margin-right: 45px;
-    margin-top: -15px;
+   margin-right: 25px;
+    width: 80%;
+    font-weight: 500;
 }
+
 /*grid*/
 .content{
     padding: 60px;
